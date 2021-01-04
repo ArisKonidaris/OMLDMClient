@@ -1,0 +1,31 @@
+[
+  {
+    "request": "Create",
+    "id": 1,
+    "learner": {
+      "name": "SVM",
+      "hyperParameters": {
+        "C": 0.01
+      },
+      "parameters": null
+    },
+    "preProcessors": [
+      {
+        "name": "StandardScaler",
+        "hyperParameters": null,
+        "parameters": null
+      },
+      {
+        "name": "PolynomialFeatures",
+        "hyperParameters": {
+          "degree": 2.0
+        },
+        "parameters": null
+      }
+    ],
+    "trainingConfiguration": {
+      "protocol": "Asynchronous",
+      "miniBatchSize": 256.0
+    }
+  }
+]

@@ -1,0 +1,120 @@
+[
+  {
+    "numericalFeatures": [-1.4, 3.12, -4.48, -0.32],
+    "discreteFeatures": [1, 3],
+    "categoricalFeatures": ["female", "caucasian"],
+    "target": 1.0,
+    "operation": "training"
+  },
+  {
+    "numericalFeatures": [-1.4, 3.12, -4.48, -0.32],
+    "discreteFeatures": null,
+    "target": 1.0,
+    "operation": "training"
+  },
+  {
+    "numericalFeatures": [-1.4, 3.12, -4.48, -0.32],
+    "categoricalFeatures": null,
+    "target": 1.0,
+    "operation": "training"
+  },
+  {
+    "numericalFeatures": [-1.4, 3.12, -4.48, -0.32],
+    "target": 1.0,
+    "operation": "training"
+  },
+  {
+    "numericalFeatures": [-1.4, 3.12, -4.48, -0.32],
+    "target": null,
+    "operation": "training"
+  },
+  {
+    "numericalFeatures": [-1.4, 3.12, -4.48, -0.32],
+    "operation": "training"
+  },
+  {
+    "id": 1,
+    "numericalFeatures": [-1.4, 3.12, -4.48, -0.32],
+    "operation": "forecasting"
+  },
+  {
+    "numericalFeatures": [-5.4, 2.12, -7.48, -1.1112],
+    "categoricalFeatures": ["male", "African American"],
+    "target": -1.0,
+    "operation": "training"
+  },
+  {
+    "numericalFeatures": null,
+    "categoricalFeatures": ["male", "African American"],
+    "target": -1.0,
+    "operation": "training"
+  },
+  {
+    "categoricalFeatures": ["male", "African American"],
+    "target": -1.0,
+    "operation": "training"
+  },
+  {
+    "discreteFeatures": [2, 8],
+    "categoricalFeatures": ["male", "African American"],
+    "target": null,
+    "operation": "training"
+  },
+  {
+    "categoricalFeatures": ["male", "African American"],
+    "operation": "training"
+  },
+  {
+    "id": 2,
+    "discreteFeatures": [2, 8],
+    "operation": "forecasting"
+  },
+  {
+    "numericalFeatures": [-5.4, 2.12, -7.48, -1.1112],
+    "categoricalFeatures": ["male", "African American"],
+    "operation": "training"
+  },
+  {
+    "numericalFeatures": [-5.4, 2.12, -7.48, -1.1112],
+    "categoricalFeatures": ["male", "African American"],
+    "target": null,
+    "operation": "training"
+  },
+  {
+    "numericalFeatures": [-5.4, 2.12, -7.48, -1.1112],
+    "discreteFeatures": [-7, 12],
+    "categoricalFeatures": ["male", "African American"],
+    "operation": "training"
+  },
+  {
+    "id": 3,
+    "numericalFeatures": [-5.4, 2.12, -7.48, -1.1112],
+    "discreteFeatures": [-7, 12],
+    "categoricalFeatures": ["male", "African American"],
+    "operation": "forecasting"
+  },
+  {
+    "numericalFeatures": [0.0, 1137, 1137, 0, 0.0211054, 0.0, 0.0],
+    "target": -1.0,
+    "operation": "training",
+    "featureNames": ["simulated time", "num cells", "num division", "num death", "wall time", "oxygen", "tnf"],
+    "run_number": 0,
+    "simulation_name": "spheroid_TNF_nopulse"
+  },
+  {
+    "featureNames": ["simulated time", "num cells", "num division", "num death", "wall time", "oxygen", "tnf"],
+    "numericalFeatures": [30.0, 1226, 89, 0, 12.8422, 0.0, 0.0],
+    "operation": "training",
+    "run_number": 0,
+    "simulation_name": "spheroid_TNF_nopulse",
+    "target": -1.0
+  },
+  {
+    "featureNames": ["simulated time", "num cells", "num division", "num death", "wall time", "oxygen", "tnf"],
+    "numericalFeatures": [1200.0, 1205, 0, 0, 33.3919, 6.21697E-257, 451.227],
+    "operation": "training",
+    "run_number": 18,
+    "simulation_name": "spheroid_TNF_pulsecont_oxy",
+    "target": 1.0
+  }
+]

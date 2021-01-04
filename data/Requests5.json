@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "request": "Create",
+    "preProcessors": [
+      {
+        "name": "PolynomialFeatures",
+        "hyperParameters": {
+          "degree": 2
+        },
+        "parameters": null
+      }
+    ],
+    "learner": {
+      "name": "SVM",
+      "hyperParameters": {
+        "C": 0.01
+      },
+      "parameters": null
+    },
+    "trainingConfiguration": {
+      "protocol": "Asynchronous",
+      "miniBatchSize": 1,
+      "miniBatches": 256
+    }
+  },
+  {
+    "id": 2,
+    "request": "Create",
+    "preProcessors": [
+      {
+        "name": "PolynomialFeatures",
+        "hyperParameters": {
+          "degree": 2
+        },
+        "parameters": null
+      }
+    ],
+    "learner": {
+      "name": "SVM",
+      "hyperParameters": {
+        "C": 0.1
+      },
+      "parameters": null
+    },
+    "trainingConfiguration": {
+      "protocol": "Asynchronous",
+      "miniBatchSize": 1,
+      "miniBatches": 256
+    }
+  },
+  {
+    "id": 3,
+    "request": "Create",
+    "preProcessors": [
+      {
+        "name": "PolynomialFeatures",
+        "hyperParameters": {
+          "degree": 2
+        },
+        "parameters": null
+      }
+    ],
+    "learner": {
+      "name": "SVM",
+      "hyperParameters": {
+        "C": 0.001
+      },
+      "parameters": null
+    },
+    "trainingConfiguration": {
+      "protocol": "Asynchronous",
+      "miniBatchSize": 1,
+      "miniBatches": 256
+    }
+  },
+  {
+    "id": 4,
+    "request": "Create",
+    "preProcessors": null,
+    "learner": {
+      "name": "SVM",
+      "hyperParameters": {
+        "C": 0.01
+      },
+      "parameters": null
+    },
+    "trainingConfiguration": {
+      "protocol": "Asynchronous",
+      "miniBatchSize": 1,
+      "miniBatches": 256
+    }
+  },
+  {
+    "id": 5,
+    "request": "Create",
+    "preProcessors": null,
+    "learner": {
+      "name": "SVM",
+      "hyperParameters": {
+        "C": 0.1
+      },
+      "parameters": null
+    },
+    "trainingConfiguration": {
+      "protocol": "Asynchronous",
+      "miniBatchSize": 1,
+      "miniBatches": 256
+    }
+  },
+  {
+    "id": 6,
+    "request": "Create",
+    "preProcessors": null,
+    "learner": {
+      "name": "SVM",
+      "hyperParameters": {
+        "C": 0.001
+      },
+      "parameters": null
+    },
+    "trainingConfiguration": {
+      "protocol": "Asynchronous",
+      "miniBatchSize": 1,
+      "miniBatches": 256
+    }
+  }
+]

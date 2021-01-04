@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1,
+    "request": "Create",
+    "preProcessors": [
+      {
+        "name": "MinMaxScaler"
+      }
+    ],
+    "learner": {
+      "name": "NN"
+    },
+    "trainingConfiguration": {
+      "protocol": "FGM",
+      "miniBatchSize": 64,
+      "miniBatches": 4
+    }
+  }
+]

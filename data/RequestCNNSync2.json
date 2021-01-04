@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "request": "Create",
+    "preProcessors": [
+      {
+        "name": "MinMaxScaler"
+      }
+    ],
+    "learner": {
+      "name": "NN"
+    },
+    "trainingConfiguration": {
+      "protocol": "Synchronous",
+      "miniBatchSize": 64,
+      "miniBatches": 4
+    }
+  },
+  {
+    "id": 2,
+    "request": "Create",
+    "preProcessors": [
+      {
+        "name": "MinMaxScaler"
+      }
+    ],
+    "learner": {
+      "name": "NN"
+    },
+    "trainingConfiguration": {
+      "protocol": "Synchronous",
+      "miniBatchSize": 64,
+      "miniBatches": 4
+    }
+  }
+]

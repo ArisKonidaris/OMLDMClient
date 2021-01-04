@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "request": "Create",
+    "preprocessors": null,
+    "learner": {
+      "name": "SVM",
+      "hyperparameters": {
+        "C": 0.01
+      },
+      "parameters": null
+    }
+  },
+  {
+    "id": 2,
+    "request": "Create",
+    "preprocessors": [
+      {
+        "name": "PolynomialFeatures",
+        "hyperparameters": {
+          "degree": 2
+        },
+        "parameters": null
+      }
+    ],
+    "learner": {
+      "name": "SVM",
+      "hyperparameters": {
+        "C": 0.01
+      },
+      "parameters": null
+    }
+  }
+]

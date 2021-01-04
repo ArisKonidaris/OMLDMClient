@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "request": "Create",
+    "preprocessors": [
+      {
+        "name": "PolynomialFeatures",
+        "hyperparameters": {
+          "degree": 2
+        },
+        "parameters": null
+      }
+    ],
+    "learner": {
+      "name": "PA",
+      "hyperparameters": {
+        "C": 0.01
+      },
+      "parameters": null
+    },
+    "training_configuration": {
+      "protocol": "FGM",
+      "mini_batch_size": 256,
+      "warmup_size": 256,
+      "precision": 0.01,
+      "threshold": 0.008,
+      "safe_zone": "ModelVariance"
+    }
+  }
+]

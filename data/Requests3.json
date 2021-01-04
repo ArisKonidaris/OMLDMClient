@@ -1,0 +1,70 @@
+[
+  {
+    "id": 1,
+    "request": "Create",
+    "preProcessors": null,
+    "learner": {
+      "name": "SVM",
+      "hyperParameters": {
+        "C": 0.01
+      },
+      "parameters": null
+    },
+    "trainingConfiguration": {
+      "protocol": "FGM"
+    }
+  },
+  {
+    "id": 2,
+    "request": "Create",
+    "preProcessors": [
+      {
+        "name": "PolynomialFeatures",
+        "hyperParameters": {
+          "degree": 2
+        },
+        "parameters": null
+      }
+    ],
+    "learner": {
+      "name": "SVM",
+      "hyperParameters": {
+        "C": 0.01
+      },
+      "parameters": null
+    },
+    "trainingConfiguration": {
+      "protocol": "FGM"
+    }
+  },
+  {
+    "id": 3,
+    "request": "Create",
+    "preProcessors": [
+      {
+        "name": "StandardScaler",
+        "hyperParameters": null,
+        "parameters": null
+      },
+      {
+        "name": "PolynomialFeatures",
+        "hyperParameters": {
+          "degree": 2
+        },
+        "parameters": null
+      }
+    ],
+    "learner": {
+      "name": "SVM",
+      "hyperParameters": {
+        "C": 0.01
+      },
+      "parameters": null
+    },
+    "trainingConfiguration": {
+      "protocol": "FGM",
+      "miniBatchSize": 1,
+      "miniBatches": 256
+    }
+  }
+]

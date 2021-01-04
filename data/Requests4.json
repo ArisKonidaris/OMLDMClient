@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "request": "Create",
+    "preProcessors": [
+      {
+        "name": "StandardScaler",
+        "hyperParameters": null,
+        "parameters": null
+      },
+      {
+        "name": "PolynomialFeatures",
+        "hyperParameters": {
+          "degree": 2
+        },
+        "parameters": null
+      }
+    ],
+    "learner": {
+      "name": "PA",
+      "hyperParameters": {
+        "C": 0.01
+      },
+      "parameters": null
+    },
+    "trainingConfiguration": {
+      "protocol": "Asynchronous",
+      "miniBatchSize": 1,
+      "miniBatches": 256
+    }
+  },
+  {
+    "id": 2,
+    "request": "Create",
+    "preProcessors": [
+      {
+        "name": "StandardScaler",
+        "hyperParameters": null,
+        "parameters": null
+      },
+      {
+        "name": "PolynomialFeatures",
+        "hyperParameters": {
+          "degree": 2
+        },
+        "parameters": null
+      }
+    ],
+    "learner": {
+      "name": "PA",
+      "hyperParameters": {
+        "C": 0.01
+      },
+      "parameters": null
+    },
+    "trainingConfiguration": {
+      "protocol": "Asynchronous",
+      "miniBatchSize": 1,
+      "miniBatches": 256
+    }
+  },
+  {
+    "id": 3,
+    "request": "Create",
+    "preProcessors": [
+      {
+        "name": "StandardScaler",
+        "hyperParameters": null,
+        "parameters": null
+      },
+      {
+        "name": "PolynomialFeatures",
+        "hyperParameters": {
+          "degree": 2
+        },
+        "parameters": null
+      }
+    ],
+    "learner": {
+      "name": "SVM",
+      "hyperParameters": {
+        "C": 0.01
+      },
+      "parameters": null
+    },
+    "trainingConfiguration": {
+      "protocol": "Asynchronous",
+      "miniBatchSize": 1,
+      "miniBatches": 256
+    }
+  },
+  {
+    "id": 4,
+    "request": "Create",
+    "preProcessors": [
+      {
+        "name": "StandardScaler",
+        "hyperParameters": null,
+        "parameters": null
+      },
+      {
+        "name": "PolynomialFeatures",
+        "hyperParameters": {
+          "degree": 2
+        },
+        "parameters": null
+      }
+    ],
+    "learner": {
+      "name": "SVM",
+      "hyperParameters": {
+        "C": 0.01
+      },
+      "parameters": null
+    },
+    "trainingConfiguration": {
+      "protocol": "Asynchronous",
+      "miniBatchSize": 1,
+      "miniBatches": 256
+    }
+  }
+]

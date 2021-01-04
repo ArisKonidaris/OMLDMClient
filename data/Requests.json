@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "request": "Create",
+    "preProcessors": [
+      {
+        "name": "PolynomialFeatures",
+        "hyperParameters": {
+          "degree": 2
+        },
+        "parameters": null
+      }
+    ],
+    "learner": {
+      "name": "PA",
+      "hyperParameters": {
+        "C": 0.01
+      },
+      "parameters": null
+    },
+    "trainingConfiguration": {
+      "protocol": "FGM"
+    }
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+  },
+  {
+    "operation": null
+  },
+  {
+    "operation": "forecasting"
+  },
+  {
+    "target": 1.0,
+    "operation": "forecasting"
+  },
+  {
+    "numericalFeatures": [-1.4, 3.12, -4.48, -0.32],
+    "discreteFeatures": [-15, 12],
+    "categoricalFeatures": ["female", "caucasian"],
+    "target": 1.0,
+    "operation": "forecasting"
+  },
+  {
+    "discreteFeatures": [-15, 12],
+    "target": 1.0,
+    "operation": "forecasting"
+  },
+  {
+    "numericalFeatures": [-1.4, 3.12, -4.48, -0.32],
+    "target": 1.0,
+    "operation": "forecasting"
+  },
+  {
+    "categoricalFeatures": ["female", "caucasian"],
+    "target": 1.0,
+    "operation": "forecasting"
+  },
+  {
+    "numericalFeatures": null,
+    "categoricalFeatures": ["female", "caucasian"],
+    "target": 1.0,
+    "operation": "forecasting"
+  },
+  {
+    "discreteFeatures": null,
+    "categoricalFeatures": ["female", "caucasian"],
+    "target": 1.0,
+    "operation": "forecasting"
+  },
+  {
+    "numericalFeatures": [-1.4, 3.12, -4.48, -0.32],
+    "discreteFeatures": null,
+    "target": 1.0,
+    "operation": "forecasting"
+  },
+  {
+    "operation": "training"
+  },
+  {
+    "target": 1.0,
+    "operation": "training"
+  },
+  {
+    "numericalFeatures": null,
+    "discreteFeatures": null,
+    "categoricalFeatures": null,
+    "target": 1.0,
+    "operation": "training"
+  },
+  {
+    "numericalFeatures": null,
+    "discreteFeatures": null,
+    "target": null,
+    "operation": "training"
+  },
+  {
+    "numericalFeatures": null,
+    "discreteFeatures": null,
+    "categoricalFeatures": null,
+    "operation": "training"
+  }
+]
