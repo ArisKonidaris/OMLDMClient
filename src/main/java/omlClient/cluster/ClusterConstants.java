@@ -17,8 +17,8 @@ public class ClusterConstants {
 
     public static final String CSV_DUMMY_MIL_E1_PATH = "/home/vkonidaris/Data/DummyDataSet_43f2c_mil_e1.txt";
     public static final String CSV_DUMMY_MIL_E2_PATH = "/home/vkonidaris/Data/DummyDataSet_43f2c_mil_e2.txt";
-    public static final String CSV_DUMMY_MIL_E3_PATH = "/home/vkonidaris/Data/DummyDataSet_43f2c_mil_e3.txt";
     public static final String CSV_DUMMY_MIL_E5_PATH = "/home/vkonidaris/Data/DummyDataSet_43f2c_mil_e5.txt";
+    public static final String CSV_DUMMY_MIL_E7_PATH = "/home/vkonidaris/Data/DummyDataSet_43f2c_mil_e7.txt";
     public static final String CSV_DUMMY_MIL_E10_PATH = "/home/vkonidaris/Data/DummyDataSet_43f2c_mil_e10.txt";
     public static final String AMNIST_PATH = "/home/vkonidaris/Data/AMNIST.txt";
 
@@ -31,8 +31,8 @@ public class ClusterConstants {
     public static final String[] DATASETS = {
             CSV_DUMMY_MIL_E1_PATH,
             CSV_DUMMY_MIL_E2_PATH,
-            CSV_DUMMY_MIL_E3_PATH,
             CSV_DUMMY_MIL_E5_PATH,
+            CSV_DUMMY_MIL_E7_PATH,
             CSV_DUMMY_MIL_E10_PATH,
             AMNIST_PATH
     };
