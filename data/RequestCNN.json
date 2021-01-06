@@ -11,9 +11,12 @@
       "name": "NN"
     },
     "trainingConfiguration": {
-      "protocol": "Asynchronous",
+      "protocol": "FGM",
       "miniBatchSize": 64,
-      "miniBatches": 4
+      "miniBatches": 4,
+      "safeZone": "ModelVariance",
+      "threshold": 0.08,
+      "precision": 0.01
     }
   }
 ]

@@ -94,8 +94,8 @@ public class TrainingDataStreamProducer {
 
         try (BufferedReader br = new BufferedReader(new FileReader(filepath))) {
             String line;
-//            while ((line = br.readLine()) != null && counter < 1000000) {
-            while ((line = br.readLine()) != null) {
+            while ((line = br.readLine()) != null && counter < 1000000) {
+//            while ((line = br.readLine()) != null) {
                     List<Double> split = Arrays
                         .stream(line.split(","))
                         .map(Double::parseDouble)

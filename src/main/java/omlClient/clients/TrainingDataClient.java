@@ -35,7 +35,7 @@ public class TrainingDataClient {
             topic = KafkaConstants.DATA_TOPIC_NAME;
             brokerList = KafkaConstants.DATA_KAFKA_BROKERS;
 //            brokerList = KafkaConstants.KAFKA_BROKERS_LIST;
-            partitions = 8;
+            partitions = 16;
             if (SystemUtils.IS_OS_LINUX)
 //                filepath = new File("").getAbsolutePath() + "/data/trainingData.csv";
 //                filepath = "/home/aris/IdeaProjects/DataStream/DummyDataSet_43f2c_mil_e1.txt";

@@ -19,7 +19,7 @@
       "parameters": null
     },
     "trainingConfiguration": {
-      "protocol": "FGM"
+      "protocol": "Asynchronous"
     }
   }
 ]
