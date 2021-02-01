@@ -38,11 +38,11 @@ public class TrainingDataClient {
             partitions = 16;
             if (SystemUtils.IS_OS_LINUX)
 //                filepath = new File("").getAbsolutePath() + "/data/trainingData.csv";
-//                filepath = "/home/aris/IdeaProjects/DataStream/DummyDataSet_43f2c_mil_e1.txt";
-                  filepath = "/home/aris/PycharmProjects/AMNIST.txt";
+                filepath = "/home/aris/IdeaProjects/DataStream/DummyDataSet_43f2c_mil_e1.txt";
+//                  filepath = "/home/aris/PycharmProjects/AMNIST.txt";
             else if (SystemUtils.IS_OS_WINDOWS)
-//                filepath = new File("").getAbsolutePath() + "\\data\\DummyDataSet_43f2c_mil_e1.txt";
-                filepath = new File("").getAbsolutePath() + "\\data\\AMNIST.txt";
+                filepath = new File("").getAbsolutePath() + "\\data\\DummyDataSet_43f2c_mil_e1.txt";
+//                filepath = new File("").getAbsolutePath() + "\\data\\AMNIST.txt";
             else
                 throw new RuntimeException("Incompatible operating system. " +
                         "Run the project on a LINUX or a Windows OS.");

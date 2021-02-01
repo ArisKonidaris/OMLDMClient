@@ -33,7 +33,7 @@ public class ForecastingDataClient {
         else {
             topic = KafkaConstants.FORECASTING_TOPIC_NAME;
             brokerList = KafkaConstants.FORECASTING_KAFKA_BROKERS;
-            partitions = 32;
+            partitions = 16;
             if (SystemUtils.IS_OS_LINUX)
                 filepath = new File("").getAbsolutePath() + "/data/forecastingData.csv";
             else if (SystemUtils.IS_OS_WINDOWS)

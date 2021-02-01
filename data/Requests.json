@@ -12,14 +12,15 @@
       }
     ],
     "learner": {
-      "name": "PA",
+      "name": "SVM",
       "hyperParameters": {
         "C": 0.01
       },
       "parameters": null
     },
     "trainingConfiguration": {
-      "protocol": "Asynchronous"
+      "protocol": "Asynchronous",
+      "HubParallelism" : 1
     }
   }
 ]

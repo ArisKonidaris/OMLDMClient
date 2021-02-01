@@ -12,10 +12,11 @@
     },
     "trainingConfiguration": {
       "protocol": "FGM",
+      "HubParallelism" : 1,
       "miniBatchSize": 64,
       "miniBatches": 4,
       "safeZone": "ModelVariance",
-      "threshold": 0.08,
+      "threshold": 8,
       "precision": 0.01
     }
   }

@@ -137,8 +137,8 @@ public class Test {
         Runtime rt = Runtime.getRuntime();
 
         // All the necessary topics for the testing of the OMLDM component.
-        String[] topics = {"trainingData", "requests", "responses", "psMessages", "performance"};
-//        String[] topics = {"trainingData", "requests", "responses", "psMessages", "performance", "forecastingData", "predictions"};
+//        String[] topics = {"trainingData", "requests", "responses", "psMessages", "performance"};
+        String[] topics = {"trainingData", "requests", "responses", "psMessages", "performance", "forecastingData", "predictions"};
 
         // The parallelism tests to be executed.
         Integer[] parallelism = {1, 2, 4, 8, 16, 32};
@@ -176,6 +176,14 @@ public class Test {
         createTopic(rt, topics[4], 1, ClusterConstants.ZOOKEEPER_SERVER_2, 4);
         System.out.println("performance topic is all set up.");
 
+        System.out.println("Setting up the forecastingData topic.");
+        createTopic(rt, topics[5], 32, ClusterConstants.ZOOKEEPER_SERVER_1, 4);
+        System.out.println("forecastingData topic is all set up.");
+
+        System.out.println("Setting up the predictions topic.");
+        createTopic(rt, topics[6], 32, ClusterConstants.ZOOKEEPER_SERVER_2, 4);
+        System.out.println("predictions topic is all set up.");
+
         // Run the OMLDM tests.
         StringBuilder results = new StringBuilder();
         for (Integer workers : parallelism) {
@@ -188,6 +196,8 @@ public class Test {
                     " --responsesTopic " + topics[2] + " --responsesAddr " + ClusterConstants.KAFKA_BROKERS +
                     " --psMessagesTopic " + topics[3] + " --psMessagesAddr " + ClusterConstants.KAFKA_BROKERS +
                     " --performanceTopic " + topics[4] + " --performanceAddr " + ClusterConstants.KAFKA_BROKERS +
+                    " --forecastingDataTopic " + topics[5] + " --forecastingDataAddr " + ClusterConstants.KAFKA_BROKERS +
+                    " --predictionsTopic " + topics[6] + " --predictionsAddr " + ClusterConstants.KAFKA_BROKERS +
                     " --jobName " + jobName;
             System.out.println("Initializing Flink job " + jobName);
 

@@ -44,9 +44,9 @@ public class RequestClient {
             brokerList = KafkaConstants.REQUEST_KAFKA_BROKERS;
 //            brokerList = KafkaConstants.KAFKA_BROKERS_LIST;
             if (SystemUtils.IS_OS_LINUX)
-                filepath = new File("").getAbsolutePath() + "/data/RequestCNN.json";
+                filepath = new File("").getAbsolutePath() + "/data/Requests.json";
             else if (SystemUtils.IS_OS_WINDOWS)
-                filepath = new File("").getAbsolutePath() + "\\data\\RequestCNN.json";
+                filepath = new File("").getAbsolutePath() + "\\data\\Requests.json";
             else
                 throw new RuntimeException("Incompatible operating system. " +
                         "Run the project on a LINUX or a Windows OS.");
